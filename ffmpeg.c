@@ -23,7 +23,15 @@
  * multimedia converter based on the FFmpeg libraries
  */
 
+//#################################
+//Included funtions due to previous undefined reference errors
+#include "cmdutils.c"
+#include "ffmpeg_opt.c"
+
+
+//#################################
 #include "config.h"
+#include "cmdutils.h"
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
